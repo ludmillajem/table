@@ -1,0 +1,27 @@
+table{
+    border: 3px solid rgb(46, 5, 5);
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 1px solid black;
+    height: 70px;
+}
+td{
+    border: 1px solid black;
+    vertical-align: top;
+    height: 50px;
+    color: rgb(59, 14, 14);
+}
+tr{
+    color:rgb(255, 255, 255)
+}
+tr:nth-child(1){
+    background-color: rgb(87, 20, 20);
+}
+tr:nth-child(even){
+    background-color: rgb(254, 197, 197);
+}
+tr:hover{
+    background-color: rgb(200, 130, 200);
+}
